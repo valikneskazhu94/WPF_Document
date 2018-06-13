@@ -1,0 +1,50 @@
+﻿<Window x:Class="WpfApp4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="700">
+    <Grid >
+        <FlowDocumentReader >
+            <FlowDocument>
+                <Paragraph FontSize="30" FontWeight="Black">
+                    Крем для обуви
+                </Paragraph>
+                <Paragraph FontSize="15" TextAlignment="Justify">
+                    <Span >
+                        <Figure Width="250"  >
+                            <BlockUIContainer >
+                                <Image Source="image/gutalin.jpg" Height="104" Width="177" ></Image>
+                            </BlockUIContainer>
+                        </Figure>
+                        Мазь для чистки обуви, изобретённая во Франции при Карле II.
+                        <Italic>Приготовлялась из яйца, сбитого с печной сажей и разведённого в уксусе или пиве.</Italic>
+                        Ныне распространена «английская» вакса; главные составные части: костяная сажа, воск, льняное масло, терпентинное масло, патока, шеллак и др. 
+                    Рецептов для приготовления ваксы множество;
+                            например, вместо сажи, могут использоваться анилиновые краски и проч.
+
+                    </Span>
+
+                </Paragraph>
+                <Paragraph  FontSize="15" TextAlignment="Justify">
+                    <Span >
+                        
+                        В последнее время потребление ваксы сильно уменьшилось из-за вредного действия серной кислоты, которая применяется при её изготовлении, однако разрушающее воздействие можно почти уничтожить при правильном приготовлении. 
+                        Преимуществом ваксы являются дешевизна и прекрасный блеск, получаемый при чистке обуви.
+                          
+                    </Span> 
+                </Paragraph>
+                <Paragraph>
+                    
+                </Paragraph>
+                <Paragraph>
+                    Информация взята  с
+                    <Hyperlink>https://ru.wikipedia.org/wiki/%D0%93%D1%83%D1%82%D0%B0%D0%BB%D0%B8%D0%BD</Hyperlink>
+                </Paragraph>
+              
+            </FlowDocument>
+        </FlowDocumentReader>
+    </Grid>
+</Window>
